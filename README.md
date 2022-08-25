@@ -1,4 +1,4 @@
-The application gives you the ability to generate a random quote using the Quotes API.
+The application gives you the ability to generate a random quote using the Quotes API created by Martin Svoboda.
 
 Stack:
 
