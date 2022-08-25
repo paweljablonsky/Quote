@@ -41,16 +41,16 @@ class MainActivity : ComponentActivity() {
                 val status by connectivityObserver.observe().collectAsState(
                     initial = ConnectivityObserver.Status.Unavailable
                 )
-                    Surface(
+                Surface(
                         modifier = Modifier.fillMaxSize(),
                         color = MaterialTheme.colors.onBackground
-                    ) {
-                        if (status == ConnectivityObserver.Status.Available){
-                            QuoteScreen()
-                        }else{
-                            Text(text = "Network status: $status", color = Color.White, textAlign = TextAlign.Center)
-                        }
+                ) {
+                    if (status == ConnectivityObserver.Status.Available){
+                        QuoteScreen()
+                    }else{
+                        Text(text = "Network status: $status", color = Color.White, textAlign = TextAlign.Center)
                     }
+                }
             }
         }
     }
