@@ -9,5 +9,4 @@ Stack:
 - Retrofit
 - Gson
 
-
-![image](https://user-images.githubusercontent.com/70322641/186717160-0906c41c-d030-40f4-b95b-be0aab40bd4c.png)
+                      ![image](https://user-images.githubusercontent.com/70322641/186717274-a3ebc580-6365-4fc2-869d-95b3d8ec9296.png)
